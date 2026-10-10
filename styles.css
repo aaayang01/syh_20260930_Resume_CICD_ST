@@ -1,0 +1,87 @@
+/* 个人主页样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #2c3e50;
+  line-height: 1.7;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 50px 60px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #34495e;
+  margin-bottom: 14px;
+  padding-left: 12px;
+  border-left: 4px solid #3498db;
+}
+
+p {
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #34495e;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ecf0f1;
+  color: #95a5a6;
+  font-size: 0.85rem;
+}
